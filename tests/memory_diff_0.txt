@@ -1,0 +1,120 @@
+21c21
+<   2re     probe       RegisterFile/r2       3
+---
+>   2re     probe       RegisterFile/r2       0
+30,31c30,31
+<   3re     probe       RegisterFile/r2       3
+<   3re     probe       RegisterFile/r3       4
+---
+>   3re     probe       RegisterFile/r2       0
+>   3re     probe       RegisterFile/r3       0
+39,40c39,40
+<   4re     probe       RegisterFile/r2       3
+<   4re     probe       RegisterFile/r3       4
+---
+>   4re     probe       RegisterFile/r2       0
+>   4re     probe       RegisterFile/r3       0
+48,49c48,49
+<   5re     probe       RegisterFile/r2       3
+<   5re     probe       RegisterFile/r3       4
+---
+>   5re     probe       RegisterFile/r2       0
+>   5re     probe       RegisterFile/r3       0
+57,58c57,58
+<   6re     probe       RegisterFile/r2       3
+<   6re     probe       RegisterFile/r3       4
+---
+>   6re     probe       RegisterFile/r2       0
+>   6re     probe       RegisterFile/r3       0
+66,67c66,67
+<   7re     probe       RegisterFile/r2       3
+<   7re     probe       RegisterFile/r3       4
+---
+>   7re     probe       RegisterFile/r2       0
+>   7re     probe       RegisterFile/r3       0
+75,76c75,76
+<   8re     probe       RegisterFile/r2       3
+<   8re     probe       RegisterFile/r3       4
+---
+>   8re     probe       RegisterFile/r2       0
+>   8re     probe       RegisterFile/r3       0
+84,85c84,85
+<   9re     probe       RegisterFile/r2       3
+<   9re     probe       RegisterFile/r3       4
+---
+>   9re     probe       RegisterFile/r2       0
+>   9re     probe       RegisterFile/r3       0
+93,94c93,94
+<   10re    probe       RegisterFile/r2       3
+<   10re    probe       RegisterFile/r3       4
+---
+>   10re    probe       RegisterFile/r2       0
+>   10re    probe       RegisterFile/r3       0
+102,103c102,103
+<   11re    probe       RegisterFile/r2       3
+<   11re    probe       RegisterFile/r3       4
+---
+>   11re    probe       RegisterFile/r2       0
+>   11re    probe       RegisterFile/r3       0
+108c108
+<   11re    ram         RAM                   0x00=3
+---
+>   11re    ram         RAM                   0x00=0
+112,113c112,113
+<   12re    probe       RegisterFile/r2       3
+<   12re    probe       RegisterFile/r3       4
+---
+>   12re    probe       RegisterFile/r2       0
+>   12re    probe       RegisterFile/r3       0
+118d117
+<   12re    ram         RAM                   0x01=4
+123c122
+<   13re    probe       RegisterFile/r3       4
+---
+>   13re    probe       RegisterFile/r3       0
+140c139
+<   15re    probe       RegisterFile/r2       3
+---
+>   15re    probe       RegisterFile/r2       0
+149,150c148,149
+<   16re    probe       RegisterFile/r2       3
+<   16re    probe       RegisterFile/r3       4
+---
+>   16re    probe       RegisterFile/r2       0
+>   16re    probe       RegisterFile/r3       0
+158,159c157,158
+<   17re    probe       RegisterFile/r2       3
+<   17re    probe       RegisterFile/r3       4
+---
+>   17re    probe       RegisterFile/r2       0
+>   17re    probe       RegisterFile/r3       0
+167,168c166,167
+<   18re    probe       RegisterFile/r2       3
+<   18re    probe       RegisterFile/r3       4
+---
+>   18re    probe       RegisterFile/r2       0
+>   18re    probe       RegisterFile/r3       0
+172c171
+<   18re    probe       RegisterFile/r7       1
+---
+>   18re    probe       RegisterFile/r7       0
+176,177c175,176
+<   19re    probe       RegisterFile/r2       3
+<   19re    probe       RegisterFile/r3       4
+---
+>   19re    probe       RegisterFile/r2       0
+>   19re    probe       RegisterFile/r3       0
+181c180
+<   19re    probe       RegisterFile/r7       1
+---
+>   19re    probe       RegisterFile/r7       0
+185,186c184,185
+<   20re    probe       RegisterFile/r2       3
+<   20re    probe       RegisterFile/r3       4
+---
+>   20re    probe       RegisterFile/r2       0
+>   20re    probe       RegisterFile/r3       0
+190c189
+<   20re    probe       RegisterFile/r7       1
+---
+>   20re    probe       RegisterFile/r7       0
