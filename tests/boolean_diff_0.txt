@@ -1,104 +1,198 @@
-20c20
+1,98c1,98
+<   0       probe       RegisterFile/r0       0
+<   0       probe       RegisterFile/r1       0
+<   0       probe       RegisterFile/r2       0
+<   0       probe       RegisterFile/r3       0
+<   0       probe       RegisterFile/r4       0
+<   0       probe       RegisterFile/r5       0
+<   0       probe       RegisterFile/r6       0
+<   0       probe       RegisterFile/r7       0
+< 
+<   1re     probe       RegisterFile/r0       0
+<   1re     probe       RegisterFile/r1       0
+<   1re     probe       RegisterFile/r2       0
+<   1re     probe       RegisterFile/r3       0
+<   1re     probe       RegisterFile/r4       0
+<   1re     probe       RegisterFile/r5       0
+<   1re     probe       RegisterFile/r6       0
+<   1re     probe       RegisterFile/r7       0
+< 
+<   2re     probe       RegisterFile/r0       0
 <   2re     probe       RegisterFile/r1       15
----
->   2re     probe       RegisterFile/r1       0
-29,30c29,30
+<   2re     probe       RegisterFile/r2       0
+<   2re     probe       RegisterFile/r3       0
+<   2re     probe       RegisterFile/r4       0
+<   2re     probe       RegisterFile/r5       0
+<   2re     probe       RegisterFile/r6       0
+<   2re     probe       RegisterFile/r7       0
+< 
+<   3re     probe       RegisterFile/r0       0
 <   3re     probe       RegisterFile/r1       15
 <   3re     probe       RegisterFile/r2       12
----
->   3re     probe       RegisterFile/r1       0
->   3re     probe       RegisterFile/r2       0
-38,40c38,40
+<   3re     probe       RegisterFile/r3       0
+<   3re     probe       RegisterFile/r4       0
+<   3re     probe       RegisterFile/r5       0
+<   3re     probe       RegisterFile/r6       0
+<   3re     probe       RegisterFile/r7       0
+< 
+<   4re     probe       RegisterFile/r0       0
 <   4re     probe       RegisterFile/r1       15
 <   4re     probe       RegisterFile/r2       12
 <   4re     probe       RegisterFile/r3       65520
----
->   4re     probe       RegisterFile/r1       0
->   4re     probe       RegisterFile/r2       0
->   4re     probe       RegisterFile/r3       0
-47,49c47,49
+<   4re     probe       RegisterFile/r4       0
+<   4re     probe       RegisterFile/r5       0
+<   4re     probe       RegisterFile/r6       0
+<   4re     probe       RegisterFile/r7       0
+< 
+<   5re     probe       RegisterFile/r0       0
 <   5re     probe       RegisterFile/r1       15
 <   5re     probe       RegisterFile/r2       12
 <   5re     probe       RegisterFile/r3       65520
----
->   5re     probe       RegisterFile/r1       0
->   5re     probe       RegisterFile/r2       0
->   5re     probe       RegisterFile/r3       0
-52c52
+<   5re     probe       RegisterFile/r4       0
+<   5re     probe       RegisterFile/r5       0
 <   5re     probe       RegisterFile/r6       15
----
->   5re     probe       RegisterFile/r6       0
-56,59c56,59
+<   5re     probe       RegisterFile/r7       0
+< 
+<   6re     probe       RegisterFile/r0       0
 <   6re     probe       RegisterFile/r1       15
 <   6re     probe       RegisterFile/r2       12
 <   6re     probe       RegisterFile/r3       65520
 <   6re     probe       RegisterFile/r4       65532
----
->   6re     probe       RegisterFile/r1       0
->   6re     probe       RegisterFile/r2       65504
->   6re     probe       RegisterFile/r3       0
->   6re     probe       RegisterFile/r4       0
-61c61
+<   6re     probe       RegisterFile/r5       0
 <   6re     probe       RegisterFile/r6       15
----
->   6re     probe       RegisterFile/r6       0
-65,68c65,68
+<   6re     probe       RegisterFile/r7       0
+< 
+<   7re     probe       RegisterFile/r0       0
 <   7re     probe       RegisterFile/r1       15
 <   7re     probe       RegisterFile/r2       12
 <   7re     probe       RegisterFile/r3       65520
 <   7re     probe       RegisterFile/r4       65532
----
->   7re     probe       RegisterFile/r1       65512
->   7re     probe       RegisterFile/r2       65504
->   7re     probe       RegisterFile/r3       0
->   7re     probe       RegisterFile/r4       0
-70c70
+<   7re     probe       RegisterFile/r5       0
 <   7re     probe       RegisterFile/r6       15
----
->   7re     probe       RegisterFile/r6       0
-74,77c74,77
+<   7re     probe       RegisterFile/r7       0
+< 
+<   8re     probe       RegisterFile/r0       0
 <   8re     probe       RegisterFile/r1       15
 <   8re     probe       RegisterFile/r2       12
 <   8re     probe       RegisterFile/r3       65520
 <   8re     probe       RegisterFile/r4       65532
----
->   8re     probe       RegisterFile/r1       65512
->   8re     probe       RegisterFile/r2       65504
->   8re     probe       RegisterFile/r3       0
->   8re     probe       RegisterFile/r4       0
-79c79
+<   8re     probe       RegisterFile/r5       0
 <   8re     probe       RegisterFile/r6       15
----
->   8re     probe       RegisterFile/r6       0
-83,86c83,86
+<   8re     probe       RegisterFile/r7       0
+< 
+<   9re     probe       RegisterFile/r0       0
 <   9re     probe       RegisterFile/r1       15
 <   9re     probe       RegisterFile/r2       12
 <   9re     probe       RegisterFile/r3       65520
 <   9re     probe       RegisterFile/r4       65532
----
->   9re     probe       RegisterFile/r1       24
->   9re     probe       RegisterFile/r2       65504
->   9re     probe       RegisterFile/r3       0
->   9re     probe       RegisterFile/r4       0
-88,89c88,89
+<   9re     probe       RegisterFile/r5       0
 <   9re     probe       RegisterFile/r6       15
 <   9re     probe       RegisterFile/r7       1
----
->   9re     probe       RegisterFile/r6       0
->   9re     probe       RegisterFile/r7       0
-92,95c92,95
+< 
+<   10re    probe       RegisterFile/r0       0
 <   10re    probe       RegisterFile/r1       15
 <   10re    probe       RegisterFile/r2       12
 <   10re    probe       RegisterFile/r3       65520
 <   10re    probe       RegisterFile/r4       65532
----
->   10re    probe       RegisterFile/r1       32
->   10re    probe       RegisterFile/r2       65504
->   10re    probe       RegisterFile/r3       0
->   10re    probe       RegisterFile/r4       0
-97,98c97,98
+<   10re    probe       RegisterFile/r5       0
 <   10re    probe       RegisterFile/r6       15
 <   10re    probe       RegisterFile/r7       1
 ---
->   10re    probe       RegisterFile/r6       0
->   10re    probe       RegisterFile/r7       0
+>   0       probe       RegisterFile/r0       unknown
+>   0       probe       RegisterFile/r1       unknown
+>   0       probe       RegisterFile/r2       unknown
+>   0       probe       RegisterFile/r3       unknown
+>   0       probe       RegisterFile/r4       unknown
+>   0       probe       RegisterFile/r5       unknown
+>   0       probe       RegisterFile/r6       unknown
+>   0       probe       RegisterFile/r7       unknown
+> 
+>   1re     probe       RegisterFile/r0       unknown
+>   1re     probe       RegisterFile/r1       unknown
+>   1re     probe       RegisterFile/r2       unknown
+>   1re     probe       RegisterFile/r3       unknown
+>   1re     probe       RegisterFile/r4       unknown
+>   1re     probe       RegisterFile/r5       unknown
+>   1re     probe       RegisterFile/r6       unknown
+>   1re     probe       RegisterFile/r7       unknown
+> 
+>   2re     probe       RegisterFile/r0       unknown
+>   2re     probe       RegisterFile/r1       unknown
+>   2re     probe       RegisterFile/r2       unknown
+>   2re     probe       RegisterFile/r3       unknown
+>   2re     probe       RegisterFile/r4       unknown
+>   2re     probe       RegisterFile/r5       unknown
+>   2re     probe       RegisterFile/r6       unknown
+>   2re     probe       RegisterFile/r7       unknown
+> 
+>   3re     probe       RegisterFile/r0       unknown
+>   3re     probe       RegisterFile/r1       unknown
+>   3re     probe       RegisterFile/r2       unknown
+>   3re     probe       RegisterFile/r3       unknown
+>   3re     probe       RegisterFile/r4       unknown
+>   3re     probe       RegisterFile/r5       unknown
+>   3re     probe       RegisterFile/r6       unknown
+>   3re     probe       RegisterFile/r7       unknown
+> 
+>   4re     probe       RegisterFile/r0       unknown
+>   4re     probe       RegisterFile/r1       unknown
+>   4re     probe       RegisterFile/r2       unknown
+>   4re     probe       RegisterFile/r3       unknown
+>   4re     probe       RegisterFile/r4       unknown
+>   4re     probe       RegisterFile/r5       unknown
+>   4re     probe       RegisterFile/r6       unknown
+>   4re     probe       RegisterFile/r7       unknown
+> 
+>   5re     probe       RegisterFile/r0       unknown
+>   5re     probe       RegisterFile/r1       unknown
+>   5re     probe       RegisterFile/r2       unknown
+>   5re     probe       RegisterFile/r3       unknown
+>   5re     probe       RegisterFile/r4       unknown
+>   5re     probe       RegisterFile/r5       unknown
+>   5re     probe       RegisterFile/r6       unknown
+>   5re     probe       RegisterFile/r7       unknown
+> 
+>   6re     probe       RegisterFile/r0       unknown
+>   6re     probe       RegisterFile/r1       unknown
+>   6re     probe       RegisterFile/r2       unknown
+>   6re     probe       RegisterFile/r3       unknown
+>   6re     probe       RegisterFile/r4       unknown
+>   6re     probe       RegisterFile/r5       unknown
+>   6re     probe       RegisterFile/r6       unknown
+>   6re     probe       RegisterFile/r7       unknown
+> 
+>   7re     probe       RegisterFile/r0       unknown
+>   7re     probe       RegisterFile/r1       unknown
+>   7re     probe       RegisterFile/r2       unknown
+>   7re     probe       RegisterFile/r3       unknown
+>   7re     probe       RegisterFile/r4       unknown
+>   7re     probe       RegisterFile/r5       unknown
+>   7re     probe       RegisterFile/r6       unknown
+>   7re     probe       RegisterFile/r7       unknown
+> 
+>   8re     probe       RegisterFile/r0       unknown
+>   8re     probe       RegisterFile/r1       unknown
+>   8re     probe       RegisterFile/r2       unknown
+>   8re     probe       RegisterFile/r3       unknown
+>   8re     probe       RegisterFile/r4       unknown
+>   8re     probe       RegisterFile/r5       unknown
+>   8re     probe       RegisterFile/r6       unknown
+>   8re     probe       RegisterFile/r7       unknown
+> 
+>   9re     probe       RegisterFile/r0       unknown
+>   9re     probe       RegisterFile/r1       unknown
+>   9re     probe       RegisterFile/r2       unknown
+>   9re     probe       RegisterFile/r3       unknown
+>   9re     probe       RegisterFile/r4       unknown
+>   9re     probe       RegisterFile/r5       unknown
+>   9re     probe       RegisterFile/r6       unknown
+>   9re     probe       RegisterFile/r7       unknown
+> 
+>   10re    probe       RegisterFile/r0       unknown
+>   10re    probe       RegisterFile/r1       unknown
+>   10re    probe       RegisterFile/r2       unknown
+>   10re    probe       RegisterFile/r3       unknown
+>   10re    probe       RegisterFile/r4       unknown
+>   10re    probe       RegisterFile/r5       unknown
+>   10re    probe       RegisterFile/r6       unknown
+>   10re    probe       RegisterFile/r7       unknown
