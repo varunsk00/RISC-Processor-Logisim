@@ -1,7 +1,11 @@
+15c15
+<   1re     probe       RegisterFile/r4       0
+---
+>   1re     probe       RegisterFile/r4       128
 25c25
 <   2re     probe       RegisterFile/r4       3
 ---
->   2re     probe       RegisterFile/r4       0
+>   2re     probe       RegisterFile/r4       256
 32c32
 <   3re     probe       RegisterFile/r1       97
 ---
@@ -9,27 +13,27 @@
 35c35
 <   3re     probe       RegisterFile/r4       3
 ---
->   3re     probe       RegisterFile/r4       0
+>   3re     probe       RegisterFile/r4       256
 42,43c42,43
 <   4re     probe       RegisterFile/r1       97
 <   4re     probe       RegisterFile/r2       65
 ---
 >   4re     probe       RegisterFile/r1       0
->   4re     probe       RegisterFile/r2       0
+>   4re     probe       RegisterFile/r2       128
 45c45
 <   4re     probe       RegisterFile/r4       3
 ---
->   4re     probe       RegisterFile/r4       0
+>   4re     probe       RegisterFile/r4       256
 52,53c52,53
 <   5re     probe       RegisterFile/r1       97
 <   5re     probe       RegisterFile/r2       65
 ---
 >   5re     probe       RegisterFile/r1       0
->   5re     probe       RegisterFile/r2       0
+>   5re     probe       RegisterFile/r2       128
 55c55
 <   5re     probe       RegisterFile/r4       3
 ---
->   5re     probe       RegisterFile/r4       0
+>   5re     probe       RegisterFile/r4       256
 59c59
 <   5re     tty         TTY                   ["A", "", "", "", "", "", "", "", "", "", "", "", ""]
 ---
@@ -39,11 +43,11 @@
 <   6re     probe       RegisterFile/r2       65
 ---
 >   6re     probe       RegisterFile/r1       0
->   6re     probe       RegisterFile/r2       0
+>   6re     probe       RegisterFile/r2       128
 65c65
 <   6re     probe       RegisterFile/r4       2
 ---
->   6re     probe       RegisterFile/r4       0
+>   6re     probe       RegisterFile/r4       384
 69c69
 <   6re     tty         TTY                   ["A", "", "", "", "", "", "", "", "", "", "", "", ""]
 ---
@@ -53,11 +57,11 @@
 <   7re     probe       RegisterFile/r2       65
 ---
 >   7re     probe       RegisterFile/r1       0
->   7re     probe       RegisterFile/r2       0
+>   7re     probe       RegisterFile/r2       128
 75c75
 <   7re     probe       RegisterFile/r4       2
 ---
->   7re     probe       RegisterFile/r4       0
+>   7re     probe       RegisterFile/r4       384
 79c79
 <   7re     tty         TTY                   ["A", "", "", "", "", "", "", "", "", "", "", "", ""]
 ---
@@ -67,11 +71,11 @@
 <   8re     probe       RegisterFile/r2       65
 ---
 >   8re     probe       RegisterFile/r1       0
->   8re     probe       RegisterFile/r2       0
+>   8re     probe       RegisterFile/r2       128
 85c85
 <   8re     probe       RegisterFile/r4       2
 ---
->   8re     probe       RegisterFile/r4       0
+>   8re     probe       RegisterFile/r4       384
 89c89
 <   8re     tty         TTY                   ["A", "", "", "", "", "", "", "", "", "", "", "", ""]
 ---
@@ -81,11 +85,11 @@
 <   9re     probe       RegisterFile/r2       66
 ---
 >   9re     probe       RegisterFile/r1       0
->   9re     probe       RegisterFile/r2       0
+>   9re     probe       RegisterFile/r2       128
 95c95
 <   9re     probe       RegisterFile/r4       2
 ---
->   9re     probe       RegisterFile/r4       0
+>   9re     probe       RegisterFile/r4       384
 99c99
 <   9re     tty         TTY                   ["A", "", "", "", "", "", "", "", "", "", "", "", ""]
 ---
@@ -95,11 +99,11 @@
 <   10re    probe       RegisterFile/r2       66
 ---
 >   10re    probe       RegisterFile/r1       0
->   10re    probe       RegisterFile/r2       0
+>   10re    probe       RegisterFile/r2       128
 105c105
 <   10re    probe       RegisterFile/r4       2
 ---
->   10re    probe       RegisterFile/r4       0
+>   10re    probe       RegisterFile/r4       384
 109c109
 <   10re    tty         TTY                   ["AB", "", "", "", "", "", "", "", "", "", "", "", ""]
 ---
@@ -109,11 +113,11 @@
 <   11re    probe       RegisterFile/r2       66
 ---
 >   11re    probe       RegisterFile/r1       0
->   11re    probe       RegisterFile/r2       0
+>   11re    probe       RegisterFile/r2       128
 115c115
 <   11re    probe       RegisterFile/r4       1
 ---
->   11re    probe       RegisterFile/r4       0
+>   11re    probe       RegisterFile/r4       512
 119c119
 <   11re    tty         TTY                   ["AB", "", "", "", "", "", "", "", "", "", "", "", ""]
 ---
@@ -123,11 +127,11 @@
 <   12re    probe       RegisterFile/r2       66
 ---
 >   12re    probe       RegisterFile/r1       0
->   12re    probe       RegisterFile/r2       0
+>   12re    probe       RegisterFile/r2       128
 125c125
 <   12re    probe       RegisterFile/r4       1
 ---
->   12re    probe       RegisterFile/r4       0
+>   12re    probe       RegisterFile/r4       512
 129c129
 <   12re    tty         TTY                   ["AB", "", "", "", "", "", "", "", "", "", "", "", ""]
 ---
@@ -137,11 +141,11 @@
 <   13re    probe       RegisterFile/r2       66
 ---
 >   13re    probe       RegisterFile/r1       0
->   13re    probe       RegisterFile/r2       0
+>   13re    probe       RegisterFile/r2       128
 135c135
 <   13re    probe       RegisterFile/r4       1
 ---
->   13re    probe       RegisterFile/r4       0
+>   13re    probe       RegisterFile/r4       512
 139c139
 <   13re    tty         TTY                   ["AB", "", "", "", "", "", "", "", "", "", "", "", ""]
 ---
@@ -151,11 +155,11 @@
 <   14re    probe       RegisterFile/r2       67
 ---
 >   14re    probe       RegisterFile/r1       0
->   14re    probe       RegisterFile/r2       0
+>   14re    probe       RegisterFile/r2       128
 145c145
 <   14re    probe       RegisterFile/r4       1
 ---
->   14re    probe       RegisterFile/r4       0
+>   14re    probe       RegisterFile/r4       512
 149c149
 <   14re    tty         TTY                   ["AB", "", "", "", "", "", "", "", "", "", "", "", ""]
 ---
@@ -165,11 +169,11 @@
 <   15re    probe       RegisterFile/r2       67
 ---
 >   15re    probe       RegisterFile/r1       0
->   15re    probe       RegisterFile/r2       0
+>   15re    probe       RegisterFile/r2       128
 155c155
 <   15re    probe       RegisterFile/r4       1
 ---
->   15re    probe       RegisterFile/r4       0
+>   15re    probe       RegisterFile/r4       512
 159c159
 <   15re    tty         TTY                   ["ABC", "", "", "", "", "", "", "", "", "", "", "", ""]
 ---
@@ -179,7 +183,11 @@
 <   16re    probe       RegisterFile/r2       67
 ---
 >   16re    probe       RegisterFile/r1       0
->   16re    probe       RegisterFile/r2       0
+>   16re    probe       RegisterFile/r2       128
+165c165
+<   16re    probe       RegisterFile/r4       0
+---
+>   16re    probe       RegisterFile/r4       640
 169c169
 <   16re    tty         TTY                   ["ABC", "", "", "", "", "", "", "", "", "", "", "", ""]
 ---
@@ -189,7 +197,11 @@
 <   17re    probe       RegisterFile/r2       67
 ---
 >   17re    probe       RegisterFile/r1       0
->   17re    probe       RegisterFile/r2       0
+>   17re    probe       RegisterFile/r2       128
+175c175
+<   17re    probe       RegisterFile/r4       0
+---
+>   17re    probe       RegisterFile/r4       640
 179c179
 <   17re    tty         TTY                   ["ABC", "", "", "", "", "", "", "", "", "", "", "", ""]
 ---
@@ -199,7 +211,11 @@
 <   18re    probe       RegisterFile/r2       67
 ---
 >   18re    probe       RegisterFile/r1       0
->   18re    probe       RegisterFile/r2       0
+>   18re    probe       RegisterFile/r2       128
+185c185
+<   18re    probe       RegisterFile/r4       0
+---
+>   18re    probe       RegisterFile/r4       640
 189c189
 <   18re    tty         TTY                   ["ABC", "", "", "", "", "", "", "", "", "", "", "", ""]
 ---
@@ -209,7 +225,11 @@
 <   19re    probe       RegisterFile/r2       67
 ---
 >   19re    probe       RegisterFile/r1       0
->   19re    probe       RegisterFile/r2       0
+>   19re    probe       RegisterFile/r2       65504
+195c195
+<   19re    probe       RegisterFile/r4       0
+---
+>   19re    probe       RegisterFile/r4       640
 198,199c198,199
 <   19re    probe       RegisterFile/r7       1
 <   19re    tty         TTY                   ["ABC", "", "", "", "", "", "", "", "", "", "", "", ""]
@@ -221,10 +241,14 @@
 <   20re    probe       RegisterFile/r2       67
 ---
 >   20re    probe       RegisterFile/r1       0
->   20re    probe       RegisterFile/r2       0
+>   20re    probe       RegisterFile/r2       65504
+205c205
+<   20re    probe       RegisterFile/r4       0
+---
+>   20re    probe       RegisterFile/r4       640
 208,209c208,209
 <   20re    probe       RegisterFile/r7       1
 <   20re    tty         TTY                   ["ABC", "", "", "", "", "", "", "", "", "", "", "", ""]
 ---
 >   20re    probe       RegisterFile/r7       0
->   20re    tty         TTY                   ["", "", "", "", "", "", "", "", "", "", "", "", ""]
+>   20re    tty         TTY                   ["`", "", "", "", "", "", "", "", "", "", "", "", ""]
